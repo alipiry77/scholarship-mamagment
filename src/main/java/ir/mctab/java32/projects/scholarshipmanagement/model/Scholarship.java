@@ -24,7 +24,7 @@ public class Scholarship {
     private String applyField;
     private String applyDate;
 
-    public Scholarship(Long id, String status, String name, String family, String nationalCode, String lastUni, String lastDegree, String lastField, Float lastScore, String applyUni, String applyDegree, String applyField, String applyDate) {
+    public Scholarship( Long id , String status, String name, String family, String nationalCode, String lastUni, String lastDegree, String lastField, Float lastScore, String applyUni, String applyDegree, String applyField, String applyDate) {
         this.id = id;
         this.status = status;
         this.name = name;
